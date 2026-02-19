@@ -1,20 +1,19 @@
-package service.estrategias.elos;
+package estrategias.elos;
 
 import model.Elo;
 import model.Jogador;
 import service.EstrategiaEloImpl;
 
-public class EstrategiaPrata implements EstrategiaEloImpl {
-
+public class EstrategiaFerro implements EstrategiaEloImpl {
     @Override
     public boolean aplicarCondicao(Jogador jogador) {
         int soma = jogador.getAtaque() + jogador.getMagia() + jogador.getVida();
-        return soma <= 599;
+        return soma <= 399;
     }
 
     @Override
     public Elo getElo() {
-        return Elo.Prata;
+        return Elo.Ferro;
     }
 }
 

@@ -1,4 +1,4 @@
-package service.estrategias.classes;
+package estrategias.classes;
 
 import model.Classe;
 import model.Jogador;

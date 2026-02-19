@@ -2,8 +2,8 @@ package service;
 
 import model.Classe;
 import model.Jogador;
-import service.estrategias.classes.EstrategiaLutador;
-import service.estrategias.classes.EstrategiaMago;
+import estrategias.classes.EstrategiaLutador;
+import estrategias.classes.EstrategiaMago;
 import java.util.ArrayList;
 import java.util.List;
 

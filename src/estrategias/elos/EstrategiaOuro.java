@@ -1,4 +1,4 @@
-package service.estrategias.elos;
+package estrategias.elos;
 
 import model.Elo;
 import model.Jogador;

@@ -6,7 +6,7 @@ import service.GerenciadorElos;
 public class Main {
     public static void main(String[] args) {
 
-        Jogador jogador = new Jogador("Zika", 0, 0, 1);
+        Jogador jogador = new Jogador("Zika", 100, 300, 100);
 
         GerenciadorClasse gerenciadorClasse = new GerenciadorClasse();
         GerenciadorElos gerenciadorElos = new GerenciadorElos();

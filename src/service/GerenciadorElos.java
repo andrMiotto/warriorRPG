@@ -1,11 +1,8 @@
 package service;
 
+import estrategias.elos.*;
 import model.Elo;
 import model.Jogador;
-import service.estrategias.elos.EstrategiaBronze;
-import service.estrategias.elos.EstrategiaFerro;
-import service.estrategias.elos.EstrategiaOuro;
-import service.estrategias.elos.EstrategiaPrata;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +17,7 @@ public class GerenciadorElos {
         estrategias.add(new EstrategiaBronze());
         estrategias.add(new EstrategiaPrata());
         estrategias.add(new EstrategiaOuro());
+        estrategias.add(new EstrategiaPlatina());
     }
 
     public Elo aplicarElo(Jogador jogador) {
